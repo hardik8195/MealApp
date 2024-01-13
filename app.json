@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "navigation-MealApp",
+    "name": "MealApp",
     "slug": "navigation-MealApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,16 +15,24 @@
       "**/*"
     ],
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hardik8195"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e8d3b5d5-2bbc-44d3-bc25-ff79e35b0ff9"
+      }
     }
   }
 }
